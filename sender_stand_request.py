@@ -4,6 +4,8 @@ import data
 from configuration import CREATE_USER_PATH
 
 
+
+
 def post_new_user(body):
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_USER_PATH,
         json=body,
